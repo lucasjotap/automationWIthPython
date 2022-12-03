@@ -1,0 +1,1 @@
+This project aims at creating python scripts that will automate simple tasks.
