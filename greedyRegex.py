@@ -6,7 +6,7 @@ matchObject = greedyRegex.search('HaHaHaHaHa')
 print(matchObject.group())
 
 # With the question mark the algorithm becomes non-greedy.
-nonGreedyRegex = re.compile(r'(Ha){3,5}?')
+nonGreedyRegex = re.compile(r'(Ha){3,6}?')
 matchObjectTwo = nonGreedyRegex.search('HaHaHaHaHa')
 print(matchObjectTwo.group())
 
